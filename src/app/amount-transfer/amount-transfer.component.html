@@ -1,0 +1,67 @@
+<html>
+  <head> 
+    <style>
+      div {
+        margin-bottom: 10px;
+      }
+      
+      label {
+        display: inline-block;
+        color:blue;
+        width: 150px;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body style="text-align:right">
+ <div class="imgmain">
+   <h1 style="text-align: left;">hi</h1>
+    <img src="https://dr5dymrsxhdzh.cloudfront.net/blog/images/a47013843/2018/10/people-sending-and-receiving-money-wirelessly-vector-id628883362.jpg">
+  </div>   
+    <h1 style="color: rgb(180, 139, 76);position:fixed;left: 810px; right: 100px; top: 90px;">RECEIVER DETAILS</h1>
+    <br><div fxLayoutAlign="center center" >
+	  <mat-card style="background-color: rgb(135, 222, 208); position:fixed;left: 850px; right: 30px;bottom:10px;">
+      <mat-toolbar style="border-radius: 10px;" color="secondary" fxLayoutAlign="center center">RECEIVER DETAILS</mat-toolbar>
+		<br><form fxLayoutAlign="stretch" fxLayout="column" style="color: burlywood;">
+      <div>
+        <label>ACCOUNT NUMBER</label>
+        <input type="text"id="accno"name="account" value="" placeholder="enter receiver acc no" />
+      </div>
+      <div>
+        <label>RECEIVER NAME</label>
+        <input type="text"id="name"name="receiver" value=""placeholder="enter receiver " />
+      </div>
+      <div>
+        <label>BIC</label>
+        <input type="text"id="bic"name="bic" value="" placeholder="enter bic " />
+      </div>
+      <div>
+        <label>BANK NAME</label>
+        <input type="text"id="bank name"name="bank name" value="" placeholder="enter bank name" />
+      </div>
+      <div>
+        <label>AMOUNT </label>
+        <input type="text" id="amount" name="money" value="" placeholder="enter amount to send" />
+      </div>
+      <div style="text-align: justify; margin-left: 11px;">
+        <label for="list">MESSAGE CODE:</label>
+        <select name="message" id="message">
+          <option value="hold">HOLD</option>
+          <option value="intc">INTC</option>
+          <option value="phob">PHOB</option>
+          <option value="phoi">PHOI</option>
+          <option value="phon">PHON</option>
+          <option value="repa">REPA</option>
+          <option value="sdva">SDVA</option>
+        </select> 
+      </div>
+      <br>
+  <button style="background-color:rgb(197, 188, 107);padding: 5px;width:50%;margin: auto auto;" type="submit" value="continue transaction">submit</button>
+    </form>
+    </mat-card>
+    </div>
+  </body>
+</html>
+
+  
+  

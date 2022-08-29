@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+/* @import url('https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css');
+body{
+    height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-image: url("https://img.freepik.com/free-vector/online-banking-smartphone_24908-60026.jpg?w=360&t=st=1661498672~exp=1661499272~hmac=095381fbd700c9237a5198f12dbd64dfc1a25debcc645911a5cf7d0289c72c4f");
+} */
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
